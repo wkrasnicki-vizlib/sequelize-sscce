@@ -5,7 +5,7 @@ services:
     environment:
       POSTGRES_USER: sequelize_test
       POSTGRES_PASSWORD: sequelize_test
-      POSTGRES_DB: sequelize_test
+      POSTGRES_DB: sequelize test
     ports:
       - 5432:5432
     healthcheck:
